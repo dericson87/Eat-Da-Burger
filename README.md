@@ -3,7 +3,7 @@ Node Express Handlebars Assignment
 
 This is a logger app using MySQL, Node, Express, and Handlebars.  More specifically Node and MySQL are used to query and route data in your app, and Handlebars to generate HTML.
 
-####How it works:
+# How it works:
 
 * A user can request a burger, which will display on the left side of the page.  
 
