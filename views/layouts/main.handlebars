@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Eat da Burger!</title>
+  <link rel="icon" href="assets/img/burger-icon.png">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+    integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="assets/css/burger_style.css">
+  <link href="https://fonts.googleapis.com/css?family=Luckiest+Guy" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Homemade+Apple" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Carter+One" rel="stylesheet">
+</head>
+
+<body>
+
+  <div class="container-fluid">
+    <center>
+      <div class="row">
+        <div class="jumbotron">
+          <h1 style="font-size:175px; color:red;">Eat Da Burger!</h1>
+          <p style="font-size:100px !important">What did you say? You want a burger?</p>
+    </center>
+    <br>
+    {{{body}}}
+    <br>
+    <form action="burger/create" method="POST">
+      <div class="row">
+        <div class="col-md-3"></div>
+        <div class="form-group col-md-6">
+          <center><label for="new_burger" class="submitFont">What type of burger do you want?</label></center>
+          <textarea style="font-size:25px" class="form-control" type="text" columns="6" rows="2"
+            id="new_burger required value=" name="burger_name"></textarea>
+        </div>
+        <div class="col-md-3"></div>
+      </div>
+      <center>
+        <button id="submit-button" type="submit" class="btn large btn-danger" style="font-size:50px">Make my
+          Burger</button>
+      </center>
+    </form>
+    <br>
+  </div>
+</body>
+
+</html>

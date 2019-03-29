@@ -1,0 +1,27 @@
+body {
+    background-image:url("/assets/img/restaurant.jpg");
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center;
+} 
+h1 {
+font-family: 'Luckiest Guy', cursive;
+}
+button, h3, .submitFont {
+    font-family: 'Carter One', cursive;
+}
+  .jumbotron{
+    padding-top: 1%;
+    background-color:transparent !important;
+  }
+  .submitFont, p {
+    font-size:75px !important;
+    color: white;
+  }
+  p {
+    font-family: 'Homemade Apple', cursive;
+   color:gold;
+  }
+  .form-control {
+      font-size:25px;
+  }
