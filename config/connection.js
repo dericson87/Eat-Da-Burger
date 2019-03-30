@@ -5,6 +5,10 @@ require("dotenv").config();
 var connection;
 if (process.env.JAWSDB_URL){
   connection = mysql.createConnection(process.env.JAWSDB_URL);
+		host: process.env.host,
+		user: process.env.user,
+		password: process.env.password,
+		database: process.env.database
 } else {
 	connection = mysql.createConnection(
 	{
