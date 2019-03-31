@@ -11,6 +11,6 @@ This is a logger app using MySQL, Node, Express, and Handlebars.  More specifica
 
 * The app will store every burger in the database, whether devoured or not.
 
-Heroku App Link: 
+Heroku App Link: https://eat-da-burgaaa.herokuapp.com/
 
 ![Screenshot](burgergif.gif)
