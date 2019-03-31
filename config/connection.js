@@ -13,7 +13,7 @@ if (process.env.JAWSDB_URL){
 		password: '4Shizle#11',
 		database: 'burgers_db'
 	});
-
+};
 connection.connect(function(err) 
 {
   if (err) 
@@ -26,4 +26,4 @@ connection.connect(function(err)
 
 module.exports = connection;
 
-};
+
